@@ -1,0 +1,14 @@
+server:
+  port: 8081
+#Spring配置信息
+spring:
+  application:
+    name: rule
+  datasource:
+    url: jdbc:mysql://localhost:3306/zbk?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
